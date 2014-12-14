@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Javascript_Generator", "Javascript_Generator\Javascript_Generator.csproj", "{195D9364-94AE-48C0-A2B9-08CD892597CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Javascript_Generator_Test", "Javascript_Generator_Test\Javascript_Generator_Test.csproj", "{27D754B3-4CD1-43CA-B3BC-BC49F13657AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{195D9364-94AE-48C0-A2B9-08CD892597CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{195D9364-94AE-48C0-A2B9-08CD892597CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{195D9364-94AE-48C0-A2B9-08CD892597CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D754B3-4CD1-43CA-B3BC-BC49F13657AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D754B3-4CD1-43CA-B3BC-BC49F13657AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D754B3-4CD1-43CA-B3BC-BC49F13657AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D754B3-4CD1-43CA-B3BC-BC49F13657AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

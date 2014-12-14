@@ -39,7 +39,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Generators\AccessorGenerator.cs" />
+    <Compile Include="Generators\AssignmentGenerator.cs" />
+    <Compile Include="Generators\BlockGenerator.cs" />
+    <Compile Include="Generators\ConstantGenerator.cs" />
+    <Compile Include="Generators\DeclarationGenerator.cs" />
+    <Compile Include="Generators\FactorGenerator.cs" />
+    <Compile Include="Generators\FileGenerator.cs" />
+    <Compile Include="Generators\IAccessorGenerator.cs" />
+    <Compile Include="Generators\IAssignmentGenerator.cs" />
+    <Compile Include="Generators\IBlockGenerator.cs" />
+    <Compile Include="Generators\IConstantGenerator.cs" />
+    <Compile Include="Generators\IDeclarationGenerator.cs" />
+    <Compile Include="Generators\IdentifierGenerator.cs" />
+    <Compile Include="Generators\IFactorGenerator.cs" />
+    <Compile Include="Generators\IIdentifierGenerator.cs" />
+    <Compile Include="Generators\IMethodCallGenerator.cs" />
+    <Compile Include="Generators\IMethodGenerator.cs" />
+    <Compile Include="Generators\IStatementGenerator.cs" />
+    <Compile Include="Generators\MethodCallGenerator.cs" />
+    <Compile Include="Generators\MethodGenerator.cs" />
+    <Compile Include="Generators\StatementGenerator.cs" />
+    <Compile Include="IDependency.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resolver.cs" />
+    <Compile Include="Structures\Accessor.cs" />
+    <Compile Include="Structures\Assignment.cs" />
+    <Compile Include="Structures\Block.cs" />
+    <Compile Include="Structures\Constant.cs" />
+    <Compile Include="Structures\Declaration.cs" />
+    <Compile Include="Structures\Factor.cs" />
+    <Compile Include="Structures\File.cs" />
+    <Compile Include="Structures\Identifier.cs" />
+    <Compile Include="Structures\IStatement.cs" />
+    <Compile Include="Structures\Method.cs" />
+    <Compile Include="Structures\MethodCall.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
